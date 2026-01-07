@@ -1,3 +1,15 @@
+<img src="Image Hatim.jpeg" style="height:464px;margin-right:432px"/>
+
+25007625
+
+DADESS ANASS CAC 1 
+
+
+
+
+
+
+
 # GRAND GUIDE ANATOMIE D’UN PROJET DATA SCIENCE – PRÉDICTION DES PRIX AAVE (CRYPTO)
 
 ---
@@ -147,6 +159,9 @@ plt.show()
 
 
 ---
+
+<img src="evolutionprix.png" style="height:464px;margin-right:432px"/>
+
 ### 6.2 Matrice de corrélation
 
 La matrice de corrélation permet de mesurer les relations linéaires entre les variables numériques.
@@ -167,6 +182,8 @@ sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f')
 plt.title('Matrice de corrélation')
 plt.show()
 ```
+
+<img src="matricecorr.png" style="height:464px;margin-right:432px"/>
 
 --------|--------|-----------|-----|-----|
 | Close | ≈ 111 | ≈ 111 | 0.52 | 632.27 |
@@ -215,6 +232,11 @@ model.fit(X_train, y_train)
 # Prédictions sur l’échantillon de test
 y_pred = model.predict(X_test)
 ```
+
+
+<img src="reglinmult.png" style="height:464px;margin-right:432px"/>
+
+
 
 Ce modèle sert de point de comparaison pour des approches plus avancées et permet une interprétation directe des relations entre variables.
 
